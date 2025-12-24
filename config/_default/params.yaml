@@ -60,7 +60,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   typography:
     # Font: 'sans' (Inter), 'serif' (Roboto Slab), or 'native' (system fonts)
-    font: "sans"
+    font: "native"
     # Size: 'sm', 'md', 'lg', or 'xl' (affects base font size and scale)
     size: "md"
 
@@ -74,7 +74,7 @@ hugoblox:
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "comfortable"
     # Avatar shape in author profiles
-    avatar_shape: circle                # circle | square | rounded
+    avatar_shape: square               # circle | square | rounded
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
@@ -105,7 +105,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   footer:
     # Footer style variant
-    style: minimal                      # minimal | columns | centered
+    style: columns                      # minimal | columns | centered
     language_switcher: true
     # Custom footer text (HTML supported)
     text: ""
@@ -166,7 +166,7 @@ hugoblox:
       enable: true
     # Academic citations
     citations:
-      style: apa                        # apa | mla | chicago | ieee
+      style: ieee                       # apa | mla | chicago | ieee
 
   # ────────────────────────────────────────────────────────────────────────────
   # SEARCH

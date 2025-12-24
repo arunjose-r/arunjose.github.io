@@ -1,116 +1,131 @@
+---
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Arun Jose
+  given: Arun
+  family: Jose
+  alternate: ""
+  pronunciation: ""
   pronouns: he/him
+
 postnominals:
   - PhD
   - MIEEE
+
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+
+role: Assistant Professor (Junior)
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Arun Jose is a PhD Scholar at the School of Electrical Engineering (SELECT), Vellore Institute of Technology (VIT).
+  His research focuses on lithium-ion battery degradation analysis using state parameters such as State of Charge (SoC) and State of Health (SoH).
+  He has published in reputed journals, including the Journal of Energy Storage and Sustainable Futures.
+  His broader interests include robotics, automation, image processing, and electric vehicle technologies.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Vellore Institute of Technology
+    url: https://vit.ac.in/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: mailto:your_email@vit.ac.in
+    label: Email
   - icon: brands/github
-    url: https://github.com/example
+    url: https://github.com/your-github-username
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://www.linkedin.com/in/your-linkedin-username/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/YOUR_ORCID_ID
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Lithium-ion Batteries
+  - Battery Degradation and Aging
+  - Robotics 
+  - Automation 
+  - Image Processing
+  - Electric Vehicle Technologies
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD (Scholar)
+    institution: Vellore Institute of Technology (VIT)
+    start: 2022-08-01
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Research on lithium-ion battery degradation using state parameters such as SoC and SoH.
+
+  - degree: M.Tech (Robotics and Automation)
+    institution: Amrita University
+    start: 2017-08-01
+    end: 2019-07-31
+
+  - degree: PG Diploma (Industrial Automation)
+    institution: Prolific Systems
+    start: 2014-07-01
+    end: 2014-09-30
+
+  - degree: B.Tech (Applied Electronics and Instrumentation)
+    institution: Jyothi Engineering College
+    start: 2010-07-01
+    end: 2014-06-30
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Assistant Professor (Junior)
+    org: Vellore Institute of Technology (VIT)
+    start: 2025-08-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Teaching and research activities in School of Computer Science (SCOPE).
+  - role: Assistant Professor (KTU-F39203)
+    org: Nehru College of Engineering and Technology(NCERC)
+    start: 2020-07-01
+    end: 2022-07-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
+      NCERC is a premier Engineering college that has pioneered engineering education,research,and training in the privatesector.
+  - role: Research Assistant 
+    org: Amrita Institute of Medical Science 
+    start: 2020-07-01
+    end: 2022-07-31
+    summary: |
+      Thesis: Developing Image Processing Tool To Detect Epileptic Zone From Patient PET Images,Proposed a MATLAB-based algorithm 
+      that will identify the hypo-metabolic part from PET images of the brain.
+  - role: Automation Engineer 
+    org: Culture Instruments India LLP 
+    start: 2014-11-01
+    end: 2016-11-30
+    summary: |
+      Culture Instruments India LLP is a manufacturer and exporter of a comprehensive range of Lab Testing Equipment and Laboratory.
+      Done a handful of projects in Mechatronics Systems.
 skills:
   - name: Technical Skills
     items:
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
         level: 4
+      - label: Battery Modeling
+        level: 3
+      - label: Data Analysis
+        level: 4
+      - label: SolidWorks
+        level: 3
+      - label: PLC Programming
+        level: 3
+      - label: Robotic Programming
+        level: 3
+
   - name: Research & Communication
     items:
       - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
         level: 4
-      - label: Grant Proposals
+      - label: Conference Presentations
         level: 4
 
 languages:
   - name: English
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
+    label: Professional
 
-awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+awards: []
+---
